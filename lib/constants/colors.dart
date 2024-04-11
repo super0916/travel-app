@@ -4,4 +4,4 @@ Color kAccentColor = Colors.purple.shade900;
 Color kPrimaryColor = Colors.white;
 Color kAppBarBackground = Colors.white;
 Color kHighlightColor = Colors.red;
-Color kBluelightColor = Colors.blue;
+Color kYellowlightColor = Colors.yellow;
