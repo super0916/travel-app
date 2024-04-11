@@ -35,7 +35,7 @@ class _SplashScreenState extends State<SplashScreen> {
         ),
         Container(
           height: size.height * 0.45,
-          padding: EdgeInsets.all(32),
+          padding: EdgeInsets.all(40),
           alignment: Alignment.bottomCenter,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
