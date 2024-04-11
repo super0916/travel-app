@@ -11,7 +11,7 @@ class AppRoutes {
   static const String ROUTE_Home = "/home";
   static const String ROUTE_Splashscreen = "/splash";
   static const String ROUTE_ViewDetails = "/view";
-  static const String ROUTE_Login = "/login";
+  static const String ROUTE_Home = "/login";
 
   static Route<dynamic> generateRoutes(RouteSettings settings) {
 
@@ -28,7 +28,7 @@ class AppRoutes {
           return MaterialPageRoute(
             settings: settings, builder: (_) => ViewDetails());
         break;
-      case ROUTE_Login:
+      case ROUTE_Home:
           return MaterialPageRoute(
             settings: settings, builder: (_) => HomePage());
       break;
