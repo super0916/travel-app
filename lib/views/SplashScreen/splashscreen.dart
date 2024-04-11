@@ -43,7 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
             children: [
               Flexible(
                   child: Text(
-                "Winter Vaction Trips!",
+                "Winter Vaction Trips",
                 maxLines: 2,
                 overflow: TextOverflow.clip,
                 style: appTheme.textTheme.headline1,
